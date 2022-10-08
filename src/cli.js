@@ -7,6 +7,7 @@ const DEFAULT_OPTIONS = {
     type: 'vue2',
     projectName: 'my-chrome-extension',
     backgroundMode: 'js',
+    ui: 'elementui',
     devTool: false,
     newtab: false,
 }
@@ -28,6 +29,12 @@ questions.push({
     name: 'newTab',
     message: '是否需要对新标签页(newtab)做扩展开发?',
     default: DEFAULT_OPTIONS.newtab,
+})
+// ui
+questions.push({
+    name: 'ui',
+    message: '采用哪个ui框架',
+    default: DEFAULT_OPTIONS.ui,
 })
 
 
