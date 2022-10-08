@@ -29,7 +29,7 @@ cmd.command('init').description('初始化模板').action(async (args) => {
         log.success('安装扩展方法可见 https://juejin.cn/post/7148618712646418439\n')
         process.exit(0)
     } catch (error) {
-        log.error(`依赖安装失败\n ${error}`)
+        log.error(`依赖安装失败 具体信息：\n ${error}`)
         process.exit(1)
     }
 })
