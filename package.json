@@ -1,6 +1,6 @@
 {
   "name": "vue-chrome-cli",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "脚手架,做着玩得  现在就一个vue得，没时间搞，选啥都是vue  o(*￣▽￣*)ブ",
   "scripts": {
     "publish-sh": "chmod 777 ./sh/publish.sh && sh ./sh/publish.sh"
