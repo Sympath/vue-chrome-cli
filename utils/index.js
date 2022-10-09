@@ -17,7 +17,7 @@ exports.installDependencies = function installDependencies(
   cwd,
   executable = 'npm'
 ) {
-  console.log(`\n\n# ${log.success('Installing project dependencies ...')}`)
+  log.success('# Installing project dependencies ...')
   console.log('# ========================\n')
   return runCommand(executable, ['install'], {
     cwd,
