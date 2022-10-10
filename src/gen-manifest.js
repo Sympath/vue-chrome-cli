@@ -5,10 +5,10 @@ const {
 } = require('../config/manifest');
 
 async function generateManifest(options, manifestPath) {
-    const { version_no: version, description, name } = options;
+    const { version_no: version, description, projectName } = options;
     const manifestJson = {
         "manifest_version": 2,
-        "name": name,
+        "name": projectName,
         "description": description || "vue开发chrome",
         "version": version || "0.0.1",
         "icons": {
