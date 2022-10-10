@@ -6,14 +6,23 @@ module.exports = class Log {
     }
 
     error(msg) {
+        if (typeof msg === 'object') {
+            msg = JSON.stringify(msg)
+        }
         this.log(chalk.red(msg));
     }
 
     warning(msg) {
+        if (typeof msg === 'object') {
+            msg = JSON.stringify(msg)
+        }
         this.log(chalk.yellow(msg));
     }
 
     success(msg) {
+        if (typeof msg === 'object') {
+            msg = JSON.stringify(msg)
+        }
         this.log(chalk.green(msg));
     }
 
