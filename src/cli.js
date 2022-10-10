@@ -18,6 +18,15 @@ const OPTIONS = [{
 }]
 
 
+defaultKeys.forEach(name => {
+    let message = `是否需要开发${name} ${defaultKeysMap[name].note || ''}`;
+    OPTIONS.push({
+        name,
+        message,
+        default: true
+    })
+})
+
 
 module.exports = () => {
     return inquirer
