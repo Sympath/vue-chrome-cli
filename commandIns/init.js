@@ -49,7 +49,9 @@ module.exports = {
             }
             // 自动安装依赖
             await installDependencies(projectPath, 'npm')
-            log.success('依赖安装成功 请运行 npm run build 生成dist目录，然后将此目录安装进扩展目录中\n')
+            log.success('依赖安装成功 请运行 如下命令 生成dist目录，然后将此目录安装进扩展目录中\n')
+            log.success(`cd ${projectName}\n`)
+            log.success('npm run build \n')
             log.success('安装扩展方法可见 https://juejin.cn/post/7148618712646418439\n')
             process.exit(0)
         } catch (error) {
