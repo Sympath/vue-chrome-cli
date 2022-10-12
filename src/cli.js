@@ -1,5 +1,5 @@
 const inquirer = require("inquirer");
-const { defaultKeys, defaultKeysMap } = require("../config/manifest");
+const { defaultKeys, defaultKeysMap } = require("./manifest-data");
 const OPTIONS = [
   {
     name: "type",

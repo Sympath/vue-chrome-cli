@@ -5,7 +5,7 @@ const options = require("../src/cli");
 const Log = require("../utils/log");
 const nodeUtil = require("../utils/node-api");
 const generateManifest = require("../src/gen-manifest");
-const { defaultKeys, defaultKeysMap } = require("../config/manifest");
+const { defaultKeys, defaultKeysMap } = require("../src/manifest-data");
 const log = new Log();
 const cwd = process.cwd();
 

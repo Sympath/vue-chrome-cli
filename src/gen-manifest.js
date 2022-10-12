@@ -1,5 +1,5 @@
 const fs = require("fs");
-const { defaultKeys, defaultKeysMap } = require("../config/manifest");
+const { defaultKeys, defaultKeysMap } = require("../manifest-data");
 
 async function generateManifest(options, manifestPath) {
   const {
