@@ -1,6 +1,6 @@
 {
   "name": "vue-chrome-cli",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "vue开发chrome扩展的脚手架",
   "scripts": {
     "publish-sh": "chmod 777 ./sh/publish.sh && sh ./sh/publish.sh"
