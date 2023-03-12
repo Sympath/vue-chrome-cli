@@ -1,6 +1,15 @@
 ## 面向问题
-vue开发chrome扩展的脚手架
+vue开发chrome扩展的脚手架，[*介绍详情可见*](https://juejin.cn/column/7148604325990776869)
 
+## 使用
+安装
+```
+npm i vue-chrome-cli -g
+```
+当前支持命令
+```
+vue-chrome-cli init
+```
 ## 待完成
 ### 选择生成
 实现新建脚手架时选择background等等功能；实现思路
